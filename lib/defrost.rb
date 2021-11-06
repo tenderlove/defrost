@@ -5,7 +5,7 @@ require "fiddle"
 class Object
   # Make your Ruby object fun again by defrosting them!  The defrost method
   # unfreezes your objects so you can mutate your objects with reckless abandon.
-  # Bring excitement and unpredictability back to your programs by making you
+  # Bring excitement and unpredictability back to your programs by making your
   # objects mutable again.
   def defrost
     addr = Fiddle.dlwrap self
